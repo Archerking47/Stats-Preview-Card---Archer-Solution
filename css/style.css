@@ -26,7 +26,7 @@ body {
 
 .card {
   width: 32.7rem;
-  margin: 8.8rem auto 0;
+  margin: 8.8rem auto;
   background-color: var(--card_bg);
   border-radius: 1rem;
   overflow: hidden;
