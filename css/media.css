@@ -1,0 +1,40 @@
+/* Responsiveness */
+@media (min-width: 64rem) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 111rem;
+    padding-bottom: 0;
+  }
+
+  .text-container {
+    text-align: left;
+    order: 1;
+  }
+  .text-box {
+    margin-top: 8rem;
+    width: 37.8rem;
+    gap: 3rem;
+  }
+  .primary-heading {
+    font-size: 3.6rem;
+  }
+  .img-box {
+    order: 2;
+    height: 100%;
+    background-image: linear-gradient(
+        hsla(277, 64%, 61%, 0.65),
+        hsla(277, 64%, 61%, 0.65)
+      ),
+      url("../images/image-header-desktop.jpg");
+    background-size: cover;
+  }
+  .stat-box {
+    width: 37.8rem;
+    margin: 6rem auto;
+  }
+  .stat-lists {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
